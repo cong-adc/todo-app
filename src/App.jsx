@@ -101,8 +101,9 @@ function App() {
     console.log('status', index);
     console.log('filter', filter);
     console.log('t.status', t.status);
-
-    return t.status === filter;
+    // if(t.status === filter) return true;
+    // return false
+    return t.status === filter; // done === doing
   });
 
 
